@@ -24,4 +24,21 @@ describe 'Basics' do
   it 'wants you to write a failing test' do
     expect(3).to eq(5)
   end
+
+  # 6. Set a negative expectation with expect(something).to_not syntax
+  it 'is not equal to 5' do
+    expect(3).to_not eq(5)
+  end
+
+  it 'is more than 5' do
+    expect(10).to be > 5
+  end
+
+  it 'matches a regular expression' do
+    expect('seafood').to match(/sea/)
+  end
+
+  # RSpec has a ton of matchers.
+  # Check them out using the link below
+  # http://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers
 end
