@@ -8,8 +8,9 @@ Learn Test Driven Development with Ruby on Rails
    2. `git clone git@github.com:fsproru/tdd_with_ror ~/workspace/tdd_with_ror`
  3. Setup the project
    1. `cd ~/workspace/tdd_with_ror`
-   2. `bundle install`
-   3. `bundle exec rake db:setup`
+   2. `gem install bundler --version=1.7.9`
+   3. `bundle install`
+   4. `bundle exec rake db:setup`
  4. Run tests and follow instructions
    1. `bundle exec rspec`
  5. Enjoy!
