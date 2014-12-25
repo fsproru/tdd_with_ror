@@ -43,13 +43,20 @@ describe Dog do
 
   # 3. Scopes
   describe '.rising_stars' do
-    let!(:rising_star) { described_class.create name: 'Jiff' }
-    let!(:old_star) { described_class.create name: 'Boo' }
+    let!(:new_dog) { described_class.create name: 'Jiff' }
+    let!(:old_dog) { described_class.create name: 'Boo' }
+    let(:rising_stars) { described_class.rising_stars }
+
+    before do
+      old_dog.update_attributes(created_at: 2.years.ago)
+    end
 
     it 'returns only one rising star' do
-      old_star.update_attributes(created_at: 2.years.ago)
+      expect(rising_stars.count).to eq 1
+    end
 
-      expect(described_class.rising_stars.count).to eq 1
+    it 'returns the newer dog' do
+      expect(rising_stars.first).to eq new_dog
     end
   end
 end
