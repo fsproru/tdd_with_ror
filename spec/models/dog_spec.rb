@@ -12,12 +12,12 @@ require 'rails_helper'
 # It we use that pattern, we can easily change the class only in one place instead changing it in many places
 describe Dog do
   it 'has a name' do
-    dog = Dog.create name: 'Boo'
+    dog = described_class.create name: 'Boo'
     expect(dog.name).to eq 'Boo'
   end
 
   it 'requires a name' do
-    unnamed_dog = Dog.new
+    unnamed_dog = described_class.new
 
     expect(unnamed_dog.valid?).to eq(false)
     expect(unnamed_dog.errors).to include(:name)
