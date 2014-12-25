@@ -35,7 +35,7 @@ describe Dog do
       older_dog = described_class.create name: 'Boo'
       younger_dog = described_class.create name: 'Jiff'
 
-      expect(older_dog.older_than?(younger_dog)).to be_true
+      expect(older_dog.older_than?(younger_dog)).to eq(true)
     end
   end
 end
