@@ -16,6 +16,8 @@ describe Dog do
   #
   # 1. Validations
   describe 'validations' do
+
+    # TODO: Refactor it when we touch on FactoryGirl
     it 'has a name' do
       dog = described_class.create name: 'Boo'
       expect(dog.name).to eq 'Boo'
@@ -24,18 +26,18 @@ describe Dog do
     it 'requires a name' do
       unnamed_dog = described_class.new
 
-      expect(unnamed_dog.valid?).to eq(false)
-      expect(unnamed_dog.errors).to include(:name)
+      expect(unnamed_dog.valid?).to eq false
+      expect(unnamed_dog.errors).to include :name
     end
   end
 
   # 2. Logic
   describe '#older_than?' do
-    it 'is older than the older dog' do
-      older_dog = described_class.create name: 'Boo'
-      younger_dog = described_class.create name: 'Jiff'
+    let(:older_dog) { described_class.create name: 'Boo' }
+    let(:younger_dog) { described_class.create name: 'Jiff' }
 
-      expect(older_dog.older_than?(younger_dog)).to eq(true)
+    it 'is older than the older dog' do
+      expect(older_dog.older_than? younger_dog).to eq true
     end
   end
 end
