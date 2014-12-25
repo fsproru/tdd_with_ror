@@ -16,16 +16,14 @@ describe Dog do
   #
   # 1. Validations
   describe 'validations' do
+    let(:unnamed_dog) { build :unnamed_dog }
+    let(:dog)         { build :dog }
 
-    # TODO: Refactor it when we touch on FactoryGirl
     it 'has a name' do
-      dog = described_class.create name: 'Boo'
-      expect(dog.name).to eq 'Boo'
+      expect(dog.name).to_not be_nil
     end
 
     it 'requires a name' do
-      unnamed_dog = described_class.new
-
       expect(unnamed_dog.valid?).to eq false
       expect(unnamed_dog.errors).to include :name
     end
@@ -33,8 +31,8 @@ describe Dog do
 
   # 2. Logic
   describe '#older_than?' do
-    let(:older_dog) { described_class.create name: 'Boo' }
-    let(:younger_dog) { described_class.create name: 'Jiff' }
+    let(:older_dog)   { create :dog }
+    let(:younger_dog) { create :dog }
 
     it 'is older than the older dog' do
       expect(older_dog.older_than? younger_dog).to eq true
@@ -43,8 +41,8 @@ describe Dog do
 
   # 3. Scopes
   describe '.rising_stars' do
-    let!(:new_dog) { described_class.create name: 'Jiff' }
-    let!(:old_dog) { described_class.create name: 'Boo' }
+    let!(:new_dog) { create :dog }
+    let!(:old_dog) { create :dog }
     let(:rising_stars) { described_class.rising_stars }
 
     before do
