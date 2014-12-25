@@ -40,4 +40,16 @@ describe Dog do
       expect(older_dog.older_than? younger_dog).to eq true
     end
   end
+
+  # 3. Scopes
+  describe '.rising_stars' do
+    let!(:rising_star) { described_class.create name: 'Jiff' }
+    let!(:old_star) { described_class.create name: 'Boo' }
+
+    it 'returns only one rising star' do
+      old_star.update_attributes(created_at: 2.years.ago)
+
+      expect(described_class.rising_stars.count).to eq 1
+    end
+  end
 end
