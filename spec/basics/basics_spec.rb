@@ -20,9 +20,9 @@ describe 'Basics' do
     expect(target).to equal(true)
   end
 
-  # 5. Now let's write a failing test
-  it 'wants you to write a failing test' do
-    expect(3).to eq(5)
+  # 5. Failing test goes green
+  it 'is equal to 5' do
+    expect(5).to eq(5)
   end
 
   # 6. Set a negative expectation with expect(something).to_not syntax
