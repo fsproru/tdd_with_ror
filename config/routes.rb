@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'dogs#index'
 
+  resources :dogs, only: [:index, :show]
+
   namespace :api do
     namespace :v1 do
       resources :dogs, only: :index

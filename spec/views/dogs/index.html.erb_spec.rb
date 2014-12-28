@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe 'dogs/index.html.erb' do
-  let(:dog) { build :dog }
+describe 'dogs/index' do
+  let(:dog) { create :dog }
   before do
     assign :dogs, [dog]
     render
