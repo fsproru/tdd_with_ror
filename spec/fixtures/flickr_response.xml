@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:flickr="urn:flickr:user"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <title>Recent Uploads tagged purple and dog</title>
+  <link rel="self" href="http://api.flickr.com/services/feeds/photos_public.gne?tags=Purple,%20dog" />
+  <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/"/>
+  <id>tag:flickr.com,2005:/photos/public/tagged/all/purple-dog</id>
+  <icon>https://s.yimg.com/pw/images/buddyicon.gif</icon>
+  <subtitle></subtitle>
+  <updated>2014-12-27T22:46:18Z</updated>
+  <generator uri="https://www.flickr.com/">Flickr</generator>
+
+  <entry>
+    <title>Un día de lluvia que no olvidaremos</title>
+    <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/andygalleta/16097268236/"/>
+    <id>tag:flickr.com,2005:/photo/16097268236</id>
+    <published>2014-12-27T22:46:18Z</published>
+    <updated>2014-12-27T22:46:18Z</updated>
+    <flickr:date_taken>2013-01-01T18:20:32-08:00</flickr:date_taken>
+    <dc:date.Taken>2013-01-01T18:20:32-08:00</dc:date.Taken>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/people/andygalleta/&quot;&gt;Andy Galleta&lt;/a&gt; posted a photo:&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/andygalleta/16097268236/&quot; title=&quot;Un día de lluvia que no olvidaremos&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7475/16097268236_0d4dec5bf6_m.jpg&quot; width=&quot;240&quot; height=&quot;137&quot; alt=&quot;Un día de lluvia que no olvidaremos&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+    </content>
+    <author>
+      <name>Andy Galleta</name>
+      <uri>https://www.flickr.com/people/andygalleta/</uri>
+      <flickr:nsid>68001579@N04</flickr:nsid>
+      <flickr:buddyicon>https://farm8.staticflickr.com/7545/buddyicons/68001579@N04.jpg?1418646496#68001579@N04</flickr:buddyicon>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="https://farm8.staticflickr.com/7475/16097268236_0d4dec5bf6_b.jpg" />
+    <category term="friends" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="sky" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="dog" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="pet" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="naturaleza" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="pets" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="sun" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="white" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="amigos" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="musgo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="green" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="love" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="blanco" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="sol" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="dogs" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="girl" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="smile" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="rain" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="animals" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="yellow" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="goldenretriever" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="atardecer" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="happy" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="photography" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="golden" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="photo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lluvia" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="big" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="chica" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="village" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="place" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="purple" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="pueblo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="away" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="natura" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="paisaje" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="pic" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="viento" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="retriever" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="perro" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="amarillo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="grandes" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="nubes" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="perros" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="animales" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="sonrisa" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="felicidad" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lovely" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="retrievers" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="puesta" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="far" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="ocaso" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lejos" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="mascotas" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lugar" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="abrazo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="molinos" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="belleza" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="peña" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="juntos" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="bets" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="mejores" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="bigs" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="morado" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="humedad" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="alturas" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="sielo" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lejania" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="razas" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="encapotado" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="twiligth" scheme="https://www.flickr.com/photos/tags/" />
+    <category term="lanudos" scheme="https://www.flickr.com/photos/tags/" />
+    <displaycategories>
+    </displaycategories>
+  </entry>
+</feed>
