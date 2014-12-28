@@ -39,6 +39,20 @@ describe Dog do
     end
   end
 
+  describe '#related_photo' do
+    let(:dog) { create :dog, name: 'Purple dog' }
+
+    before do
+      stub_request(:get, "https://api.flickr.com/services/feeds/photos_public.gne?tags=Purple,dog").
+                 with(:headers => {'Accept'=>'*/*', 'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3', 'User-Agent'=>'Ruby'}).
+                 to_return(:status => 200, :body => Rails.root.join('spec/fixtures/flickr_response.xml').read, :headers => {})
+    end
+
+    it 'returns related photos from an external API' do
+      expect(dog.related_photo).to eq 'https://www.flickr.com/photos/andygalleta/16097268236/'
+    end
+  end
+
   # 3. Scopes
   describe '.rising_stars' do
     let!(:new_dog) { create :dog }
